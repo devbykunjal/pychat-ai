@@ -1,69 +1,58 @@
-PyChat AI 🤖✨
+🤖 PyChat AI
 
-An advanced AI-powered chatbot built using Python, Flask, HTML, CSS, and JavaScript with support for:
+PyChat AI is an advanced AI-powered chatbot built using Python and Flask with support for voice input, OCR, AI responses, and a modern animated frontend.
 
-💬 AI Chat
-🎙️ Voice Input
-🖼️ Image Upload + AI Vision
-📜 Scrollable Chat UI
-🌈 Animated AI Background
-🧠 OCR + AI Summary
-⌨️ Typing Animation
-💾 Chat History
-🎨 Dynamic Theme Color Picker
-🚀 Features
-💬 AI Chat
+## 🚀 Live Demo
 
-Chat with AI using OpenRouter API.
+https://pychat-ai.onrender.com/
 
-🎙️ Voice Input
 
-Speak directly to the chatbot using microphone support.
+ ✨ Features
 
-🖼️ Image Understanding
+- 💬 AI Chat System
+- 🎤 Voice Input using Microphone
+- 🖼️ Image to Text (OCR)
+- 🧠 AI Image Summarization
+- 📜 Scrollable Chat Interface
+- ⌨️ Typing Animation Effect
+- 🌈 Dynamic Gradient Backgrounds
+- 🎨 User-selectable Theme Colors
+- 🕒 Chat Timestamps
+- 💾 Chat History Saving
+- ☁️ Deployed Online with Render
 
-Upload images and let AI:
 
-extract text
-summarize notes
-explain screenshots
-analyze images
-📜 Scrollable Chat Area
 
-Smooth scrollable chat container with preserved message history.
+🛠️ Technologies Used
 
-⌨️ Typing Animation
+### Backend
+- Python
+- Flask
+- OpenRouter API
 
-AI responses appear with a realistic typewriter effect.
+### AI / OCR
+- SpeechRecognition
+- PyTesseract
+- Pillow
 
-🌈 Futuristic Animated UI
+### Frontend
+- HTML
+- Glassmorphism UI
+- Animated Gradients
+- Custom Styling & Effects
 
-Modern AI-inspired frontend featuring:
 
-animated mesh background
-floating blobs
-glassmorphism
-neon glow effects
-smooth transitions
-🎨 Dynamic Theme Customization
 
-Users can choose their own accent/background colors using the built-in color picker.
+## 📂 Project Structure
 
-💾 Chat History
-
-Conversations can be downloaded and saved locally.
-
-🛠️ Tech Stack
-Backend
-Python
-Flask
-OpenRouter API
-Frontend
-HTML
-CSS
-JavaScript
-AI / Extra Libraries
-SpeechRecognition
-PyTTSX3
-Pillow
-PyTesseract
+```bash
+pychat-ai/
+│
+├── templates/
+│   └── index.html
+│
+├── app.py
+├── main.py
+├── requirements.txt
+├── README.md
+└── chat_history.txt
