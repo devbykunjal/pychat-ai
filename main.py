@@ -5,11 +5,11 @@ from datetime import datetime
 import speech_recognition as sr
 from PIL import Image
 import pytesseract
-
+import os
+API_KEY = os.getenv("OPENROUTER_API_KEY")
 # Tesseract Path
 pytesseract.pytesseract.tesseract_cmd = r"C:\Program Files\Tesseract-OCR\tesseract.exe"
 
-API_KEY = "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"
 
 # Create recognizer
 recognizer = sr.Recognizer()
